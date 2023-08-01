@@ -3,7 +3,7 @@
 }
 
 #concatVarHeader{
-    background-color: darkblue;
+    background-color: #00008b;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -20,22 +20,40 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 0;
-    box-shadow: 0px 4px 15px  rgba(0,0,0,0.1);
+/*     box-shadow: 0px 4px 15px  rgba(0,0,0,0.1); */
 }
 .itemList {
     list-style: none;
-    width: auto;
-    height: 100%;
-
+    line-height: 4;
+    color: #fff;
+    position: relative;
 }
-.itemList:hover{
-    border-radius: 5px;
-    box-shadow: 0px 4px 15px  rgba(0,0,0,0.1);
+.itemList:before{
+  position: absolute;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: darkblue;
+  transition: all .3s;
   }
+.itemList:hover::before{
+  width: 100%;
+}
+.tres:before {
+  left: 50%;
+}
+.tres:hover:before {
+  left:0;
+}
 .itemListLink {
     list-style: none;
     color: darkblue;
     text-decoration: none;
+}
+.dropdownItems{
+  width: 100%;
 }
 /* dropdown */
 .dropbtn {
@@ -79,8 +97,8 @@
   box-shadow: inset;
 }
 
-/* .imgSvg{
-    margin: 1px 2px 2px 0;
+.imgSvg{
+    margin-top: 22px;
 }
 .imgLogoMenu{
     height: 70px;

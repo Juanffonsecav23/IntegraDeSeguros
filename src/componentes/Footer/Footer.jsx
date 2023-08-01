@@ -7,16 +7,16 @@ function Footer() {
       <footer className="footer">
       <ul className="social-icon">
         <li className="social-icon__item"><a className="social-icon__link" href="https://www.facebook.com/profile.php?id=100087745636618">
-            <img style={{color:'white'}} src="/src/assets/iconos/facebook.svg" alt="" />
+            <img style={{color:'white'}} src="/icons/facebook.svg" alt="Logo de facebook" />
           </a></li>
         <li className="social-icon__item"><a className="social-icon__link" href="https://instagram.com/casaaloha152?igshid=MzRlODBiNWFlZA==">
-            <img src="/src/assets/iconos/whatsapp.svg" alt="" />
+            <img src="/icons/instagram.svg" alt="Logo de instagram" />
           </a></li>
         <li className="social-icon__item"><a className="social-icon__link" href="#">
-            <img src="/src/assets/iconos/instagram.svg" alt="" />
+            <img src="/icons/whatsapp.svg" alt="Logo de Whatsapp" />
           </a></li>
         <li className="social-icon__item"><a className="social-icon__link" href="#">
-            <img src="/src/assets/iconos/google.svg" alt="" />
+            <img src="/icons/google.svg" alt="Logo de Google" />
           </a></li>
       </ul>
       <ul className="menu">

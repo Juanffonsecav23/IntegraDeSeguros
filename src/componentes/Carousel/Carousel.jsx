@@ -1,4 +1,4 @@
-function Carousel({ children }) {
+function Carousel({children}) {
     return (
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
@@ -16,8 +16,11 @@ function Carousel({ children }) {
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="prev"
+          style={{paddingRight:"140px"}}
+
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="carousel-control-prev-icon" aria-hidden="true" style={{backgroundColor:  "#00008b" , borderRadius: "5px"}}
+></span>
           <span className="visually-hidden">Previous</span>
         </button>
         <button
@@ -25,11 +28,14 @@ function Carousel({ children }) {
           type="button"
           data-bs-target="#carouselExample"
           data-bs-slide="next"
+          style={{paddingLeft:"140px"}}
+
         >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+          <span className="carousel-control-next-icon" aria-hidden="true" style={{backgroundColor:  "#00008b" , borderRadius: "5px"}}></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>
+      
     );
   }
   
