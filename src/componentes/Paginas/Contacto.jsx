@@ -1,7 +1,9 @@
+import CheckOutForm from "../CheckOutForm/CheckOutForm"
+
 function Contacto() {
   return (
     <div>
-        <h1>Contacto</h1>
+        <CheckOutForm/>
     </div>
   )
 }

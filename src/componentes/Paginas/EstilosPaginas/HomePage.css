@@ -1,3 +1,7 @@
+.imgHp{
+    width: 100%;
+    max-height: 600px;
+}
 .logosEmpresas{
     display: flex;
     flex-flow: row nowrap;
@@ -25,6 +29,7 @@ color: darkblue;
     background-color: transparent;
     font-family: sans-serif;
     height: 420px;
+    width: 100%;
 }
 .flipCardInner {
     position: relative;
@@ -47,7 +52,6 @@ color: darkblue;
     border-radius: 1rem;
 }
 .flipCardFront {
-    /* background:linear-gradient(120deg, rgb(145, 184, 255) 30%, darkblue 88%); */
     background-color: white;
     color: darkblue;
     padding-top: 12rem;
@@ -56,57 +60,26 @@ color: darkblue;
     background-color: white;
     transform: rotateY(180deg);
 }
-#tituloQS{
-    grid-area: titulo;
-    margin-left:10%;
-    color: darkblue;
-}
-#img1QS{
-    grid-area: imagen1;
-    margin-left: 10px;
-    border-radius: 50%;
-}
-#texto1QS{
-    grid-area: texto1;
-    padding-left: 5px;
-}
-#img2QS{
-    grid-area: texto2;
-    margin-left: 10px;
-    border-radius: 50%;
-}
-#texto2QS{
-    grid-area: imagen2;
-    padding-left: 5px;
-    
-}
-.QuienesSomos{
-    display: grid;
-    grid-template-areas:
-    "titulo titulo"
-    "imagen1 texto1 "
-    "imagen2 texto2 "
-    ;
-}
 #tituloM{
     grid-area: tituloM;
     color: darkblue;
 }
 #textoM{
     grid-area: textoM;
+    width: 80%;
+    margin-left: 10%;
 }
 #imgM{
     grid-area: imgM;
     margin-left: 10px;
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
 }
 .Mision{
     display: grid;
     grid-template-areas: 
     "tituloM tituloM "
     "textoM imgM";
-}
-.Vision{
-    display: flex;
-    flex-flow: column nowrap;
 }

@@ -5,7 +5,7 @@ return (
 <>
         <div>
             <ul id="concatVarHeader">
-                <li><a href="https://web.whatsapp.com/" className="itemsVH"><img src="/icons/whatsapp.svg" ></img>310 000 0000</a></li>
+                <li><a href="https://web.whatsapp.com/" className="itemsVH"><img src="/icons/whatsapp.svg" ></img>313 333 1128</a></li>
                 <li className="itemsVH"><img src="/icons/telephone-fill.svg" ></img> (601) 368 4136</li>
                 <li><a href="https://goo.gl/maps/n9s3yXVv97opp45b8" className="itemsVH"><img src="/icons/geo-alt-fill.svg" ></img>Cr 31A # 25A - 93</a></li>
                 <li><a href="mailto:" className="itemsVH"><img src="/icons/envelope-fill.svg"></img> contacto@integaldeseguros.com.co </a></li>
