@@ -6,13 +6,13 @@ const aseguradoras = [
         description: "####"
     },
     {
-        id: 1,
+        id: 2,
         title:"Bolivar",
         img:"ruta",
         description: "####"
     },
     {
-        id: 1,
+        id: 3,
         title:"Liberty",
         img:"ruta",
         description: "####"

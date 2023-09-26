@@ -12,10 +12,8 @@ function HomePage() {
             <img src="https://placehold.co/200x200" alt="" />
             <img src="https://placehold.co/200x201" alt="" />
             <img src="https://placehold.co/200x201" alt="" />
-{/*             <img src="https://placehold.co/200x201" alt="" />
- */}          </div>
+          </div>
           <div  className="logosEmpresas">
-            <img src="https://placehold.co/200x200" alt="" />
             <img src="https://placehold.co/200x200" alt="" />
             <img src="https://placehold.co/200x200" alt="" />
             <img src="https://placehold.co/200x200" alt="" />
@@ -43,7 +41,7 @@ function HomePage() {
                 <div className="Mision flipCardBack">
                   <h3 id="tituloM">Misión</h3>
                   <p id="textoM">Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
-                  <img src="/public/imgs/vision.jpg" alt="" id="imgM" />
+                  <img src="/imgs/vision.jpg" alt="" id="imgM" />
                 </div>
               </div>
             </div>

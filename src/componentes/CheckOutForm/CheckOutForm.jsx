@@ -1,14 +1,27 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react"
-import "./CheckOutForm.css"
+import "./CheckOutForm.css";
+import { useNavigate } from "react-router-dom";
+import { formData } from "../../servicios/Firebase";
 
-function CheckOutForm({onHandleConfrim}) {
+function CheckOutForm() {
 
+    const navigateToMessageConfirmation = useNavigate();
+
+    async function onHandleConfrim (userData){
+        const order ={
+            buyer: userData,
+            date: new Date(),
+        }
+        const id = await formData(order)
+        navigateToMessageConfirmation(`/med¡ssage-confirmation/${id}`)
+    }
     const [userData , setUserData] = useState({
         nombre: "",
         apellido:"",
         phone: "",
         email: "",
+        comentario:"",
     })
 
     function onInputChange (evt){
@@ -21,32 +34,33 @@ function CheckOutForm({onHandleConfrim}) {
     function onSubmit(evt) {
         evt.preventDefault();
         onHandleConfrim(userData)
+        console.log(userData);
     }
 
   return (
     <div className="checkoutform-Container">
         <h3>Dejanos tus datos personales y nosotros te contactamos</h3>
         <div>
-            <label >Nombre:</label>
+            <label >Nombre(s) :</label>
             <input className="input-Form" value={userData.nombre} name="nombre" type="text" onChange={onInputChange} />
         </div>
         <div>
-            <label >Apellido:</label>
+            <label >Apellido(s):</label>
             <input className="input-Form" value={userData.apellido} name="apellido" type="text" onChange={onInputChange} />
         </div>
         <div>
-            <label>Email: </label>
+            <label style={{marginRight:"38px"}}>Email: </label>
             <input className="input-Form" value={userData.email} name="email" type="text"  onChange={onInputChange}/>
         </div>
         <div>
-            <label>Telefono: </label>
+            <label style={{marginRight:"13px"}}>Telefono: </label>
             <input className="input-Form" value={userData.phone} name="phone" type="text" onChange={onInputChange} />
         </div>
         <div>
-            <p>Comentario: </p>
-            <textarea cols={30} rows={10} className="input-Form"></textarea>
+            <p style={{marginTop:"10px" , marginBottom:"0"}}>Comentario: </p>
+            <textarea cols={30} rows={10} className="input-Form" value={userData.comentario} name="comentario" onChange={onInputChange}></textarea>
         </div>
-        <button onClick={onSubmit}>Reservar</button>
+        <button onClick={onSubmit} className="botonFormulario">Enviar</button>
     </div> )
 
   }

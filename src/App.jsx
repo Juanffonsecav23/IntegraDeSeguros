@@ -9,6 +9,8 @@ import Seguros from './componentes/Paginas/Seguros/Seguros'
 import Aseguradoras from './componentes/Paginas/Aseguradoras'
 import Contacto from './componentes/Paginas/Contacto'
 import WhatsappButton from './componentes/WhatsappButton/WhatsappButton'
+import ItemListContainer from './componentes/ItemListContainer/ItemListContainerSeguros'
+import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer'
 
 function App() {
 
@@ -18,11 +20,13 @@ function App() {
     <Navbar/>
     <Routes>
       <Route path='/' element={<HomePage/>}/>
-      <Route path='/Paginas/QuienesSomos' element={<QuienesSomos/>}/>
-      <Route path='/Paginas/Servicios' element={<Servicios/>}/>
-      <Route path='/Paginas/Seguros' element={<Seguros/>}/>
-      <Route path='/Paginas/Aseguradoras' element={<Aseguradoras/>}/>
-      <Route path='/Paginas/Contacto' element={<Contacto/>}/>
+      <Route path='/QuienesSomos' element={<QuienesSomos/>}/>
+      <Route path='/Servicios' element={<Servicios/>}/>
+      <Route path='/Seguros' element={<Seguros/>}/>
+      <Route path='/Seguro/:id' element={<ItemDetailContainer/>}/>
+      <Route path='/Seguros/:categoryId' element={<ItemListContainer/>}/>
+      <Route path='/Aseguradoras' element={<Aseguradoras/>}/>
+      <Route path='/Contacto' element={<Contacto/>}/>
       <Route path='*' element={<h1>Error 404: Pagina no encontrada</h1>}/>
     </Routes>
     <WhatsappButton/>

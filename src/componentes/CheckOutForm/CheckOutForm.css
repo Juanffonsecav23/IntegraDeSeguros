@@ -13,4 +13,11 @@
     background-color: transparent;
     border-radius: 5px;
     margin-left: 2px;
+    margin-top: 10px;
+}
+.botonFormulario{
+    background-color: #00008b;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
 }

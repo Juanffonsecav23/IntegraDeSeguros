@@ -20,3 +20,6 @@
     font-size: large;
     padding-bottom: 12px;
 }
+.itemCardBody{
+    text-decoration: none;
+}

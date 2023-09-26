@@ -14,18 +14,18 @@ return (
         <div>
         <ul className="menu">
             <li className="itemList tres"><NavLink to="/" className="itemListLink"><img src="/imgs/logoArreglado.png"/></NavLink></li>
-            <li className="itemList tres"><NavLink to="Paginas/QuienesSomos" className="itemListLink" >Quienes Somos</NavLink></li>
-            <li className="itemList tres"><NavLink to="Paginas/Servicios" className="itemListLink" >Servicios</NavLink></li>
+            <li className="itemList tres"><NavLink to="/QuienesSomos" className="itemListLink" >Quienes Somos</NavLink></li>
+            <li className="itemList tres"><NavLink to="/Servicios" className="itemListLink" >Servicios</NavLink></li>
             <li className="dropdown itemList tres">
-            <button className="dropbtn"><NavLink to="Paginas/Seguros" className="itemListLink">Seguros</NavLink></button>
+            <button className="dropbtn"><NavLink to="/Seguros" className="itemListLink">Seguros ▼ </NavLink></button>
             <div className="dropdown-content">
-            <NavLink to="/paginas/Seguros/Seguro1" className="itemListLink tres itemList dropdownItems" >Seguro 1</NavLink>
-            <NavLink to="/paginas/Seguros/Seguro2" className="itemListLink tres itemList dropdownItems" >Seguro 2</NavLink>
-            <NavLink to="/paginas/Seguros/Seguro3" className="itemListLink tres itemList dropdownItems" >Seguro 3</NavLink>
+            <NavLink to="/Seguros/Hogar" className="itemListLink tres itemList dropdownItems" >Hogar</NavLink>
+            <NavLink to="/Seguros/Vehiculos" className="itemListLink tres itemList dropdownItems" >Vehiculos</NavLink>
+            <NavLink to="/Seguros/Personas" className="itemListLink tres itemList dropdownItems" >Personas</NavLink>
             </div>
             </li>
-            <li className="itemList tres"><NavLink to="/Paginas/Aseguradoras" className="itemListLink" >Aseguradoras</NavLink></li>
-            <li className="itemList tres"><NavLink to="/Paginas/Contacto" className="itemListLink" >Contacto</NavLink></li>
+            <li className="itemList tres"><NavLink to="/Aseguradoras" className="itemListLink" >Aseguradoras</NavLink></li>
+            <li className="itemList tres"><NavLink to="/Contacto" className="itemListLink" >Contacto</NavLink></li>
         </ul>
         </div>
         </>)

@@ -9,12 +9,12 @@
     text-align: center;
     margin-bottom: 20px;
 }
-.boxQS{
+.boxQS{/* imagenes de los slogans */ 
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
 }
-.imgBoxes{
+.imgBoxes{/* imagenes de los slogans */ 
     border-radius: 50%;
 }
 .textoQS{

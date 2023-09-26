@@ -13,8 +13,8 @@ function QuienesSomos() {
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate velit maxime quasi ab blanditiis architecto labore explicabo, dolor quia voluptatibus saepe nulla itaque sapiente similique earum suscipit optio minima doloribus.</p>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate velit maxime quasi ab blanditiis architecto labore explicabo, dolor quia voluptatibus saepe nulla itaque sapiente similique earum suscipit optio minima doloribus.</p>
         </div>
-        <div className="boxesQS">
-          <div className="boxesItems flipCard">
+        <div className="boxesQS" >
+          <div className="boxesItems flipCard" style={{marginLeft:"50px", marginRight:"25px"}}>
             <div className="  flipCardInner">
               <div className="flipCardFront">
                 <h3>Misión</h3>
@@ -26,7 +26,7 @@ function QuienesSomos() {
               </div>
             </div>
           </div>
-          <div className="boxesItems flipCard">
+          <div className="boxesItems flipCard" style={{marginRight:"50px" , marginLeft:"25px"}}>
             <div className=" flipCardInner">
               <div className="flipCardFront">
                 <h3>Visión</h3>

@@ -1,9 +1,9 @@
 import CheckOutForm from "../CheckOutForm/CheckOutForm"
 
-function Contacto() {
+function Contacto(onHandleConfrim) {
   return (
     <div>
-        <CheckOutForm/>
+        <CheckOutForm onHandleConfrim={onHandleConfrim} />
     </div>
   )
 }

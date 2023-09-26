@@ -11,7 +11,25 @@
   align-items: center;
   flex-direction: column;
 }
-
+.flexFooter{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.menuFooter{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.linkFooter{
+  text-decoration: none;
+  color: white;
+}
 .social-icon,
 .menu {
   position: relative;
@@ -42,7 +60,8 @@
   font-size: 1.2rem;
   color: #fff;
   margin: 0 10px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   transition: 0.5s;
   text-decoration: none;
   opacity: 0.75;

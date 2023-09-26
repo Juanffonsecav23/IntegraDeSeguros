@@ -1,22 +1,16 @@
-import aseguradoras from "../../data/aseguradoras";
+import { getAseguradorasData } from "../../servicios/Firebase";
 import ItemListAseguradoras from "./ItemListAseguradoras";
 import "./styles.css"
 import { useEffect, useState } from "react";
 
-function getData() {
-    return new Promise((resolve) => {
-        setTimeout(()=> {
-            resolve(aseguradoras)
-        }, 2000);
-    });
-}
+
 
 function ItemListContainerAseguradoras() {
     let [isLoading , setIsLoading] = useState (true);
     let [aseguradoras , setAseguradora] = useState([]);
 
     useEffect(()=> {
-        getData().then((respuesta) =>
+        getAseguradorasData().then((respuesta) =>
         setAseguradora(respuesta))
             .finally(()=> {
                 setIsLoading(false)
