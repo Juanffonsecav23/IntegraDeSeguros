@@ -11,6 +11,7 @@ import Contacto from './componentes/Paginas/Contacto'
 import WhatsappButton from './componentes/WhatsappButton/WhatsappButton'
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainerSeguros'
 import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer'
+import MessageVerify from './componentes/MessageVerify/MessageVerify'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Route path='/Seguros' element={<Seguros/>}/>
       <Route path='/Seguro/:id' element={<ItemDetailContainer/>}/>
       <Route path='/Seguros/:categoryId' element={<ItemListContainer/>}/>
+      <Route path='/messageConfirmation/:id' element={<MessageVerify/>}/>
       <Route path='/Aseguradoras' element={<Aseguradoras/>}/>
       <Route path='/Contacto' element={<Contacto/>}/>
       <Route path='*' element={<h1>Error 404: Pagina no encontrada</h1>}/>

@@ -4,7 +4,7 @@ function Servicios() {
     <div>
         <h1 className="tituloQS">Servicios</h1>
         <div className="CajaServicios">
-          <img src="https://placehold.co/250x400" alt="" />
+          <img src="/imgs/injury-amico.png" alt="" style={{width:"400px" , height:"400px"}} />
           <ul className="ListaServicios">
             <li className="itemListaServicio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, dicta est?</li>
             <li className="itemListaServicio">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, dicta est?</li>

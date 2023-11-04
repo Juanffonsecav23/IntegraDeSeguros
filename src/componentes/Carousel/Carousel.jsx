@@ -19,7 +19,7 @@ function Carousel({children}) {
           style={{paddingRight:"140px"}}
 
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true" style={{backgroundColor:  "#00008b" , borderRadius: "5px"}}
+          <span className="carousel-control-prev-icon" aria-hidden="true" style={{backgroundColor:  "blue" , borderRadius: "5px"}}
 ></span>
           <span className="visually-hidden">Previous</span>
         </button>
@@ -31,7 +31,7 @@ function Carousel({children}) {
           style={{paddingLeft:"140px"}}
 
         >
-          <span className="carousel-control-next-icon" aria-hidden="true" style={{backgroundColor:  "#00008b" , borderRadius: "5px"}}></span>
+          <span className="carousel-control-next-icon" aria-hidden="true" style={{backgroundColor:  "blue" , borderRadius: "5px"}}></span>
           <span className="visually-hidden">Next</span>
         </button>
       </div>

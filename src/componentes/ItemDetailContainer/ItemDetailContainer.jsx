@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import Loader from '../Loader/Loader';
 import { getSeguroData } from '../../servicios/Firebase';
+import "./ItemDetailContainer.css";
+import CheckOutForm from '../CheckOutForm/CheckOutForm';
 
 
 
@@ -34,9 +36,17 @@ function ItemDetailContainer() {
         
       return (
         <div>
-            <h1>{seguro.title}</h1>
-            <img src={seguro.img} alt="" />
-            <p>{seguro.description}</p>
+            <div>
+              <h1 className='detailTitle'>{seguro.title}</h1>
+              <div className='cuerpoSeguro'>
+                <img src={seguro.img} alt="" />
+                <p className='detailText'>{seguro.description}</p>
+              </div>
+            </div>
+            <div>
+              <CheckOutForm/>
+            </div>
+
         </div>
       )
     }

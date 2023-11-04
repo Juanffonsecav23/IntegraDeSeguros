@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div>
       <footer className="footer">
-        <img src="/public/imgs/logoArreglado.png" alt="" style={{backgroundColor:"white", borderRadius:"100px"}} />
+        <img src="/icons/LogoIntegralBlanco.svg" alt="" style={{ width:"100px",marginLeft:"30px"}} />
       <ul className="social-icon">
         <li className="social-icon__item"><a className="social-icon__link" href="https://www.facebook.com/profile.php?id=100087745636618">
             <img style={{color:'white'}} src="/icons/facebook.svg" alt="Logo de facebook" />

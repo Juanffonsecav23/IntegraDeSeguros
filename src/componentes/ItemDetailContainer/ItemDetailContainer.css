@@ -1,0 +1,17 @@
+.cuerpoSeguro{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.detailTitle{
+    height: 100px;
+    padding-left: 40%;
+    padding-top: 20px;
+    color: white;
+    background:linear-gradient(120deg, rgb(145, 184, 255) 30%, rgb(0, 0, 203) 88%) ;
+}
+.detailText{
+    max-width: 50%;
+    margin-left: 10px;
+}

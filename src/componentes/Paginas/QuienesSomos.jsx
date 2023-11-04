@@ -21,8 +21,8 @@ function QuienesSomos() {
               </div>
               <div className=" Mision flipCardBack">
                 <h3 id="tituloM">Misión</h3>
-                <p id="textoM">Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
-                <img src="https://placehold.co/200x200" alt="" id="imgM"/>
+                <p id="textoM" style={{marginTop:"45px"}}>Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
+                <img src="/imgs/Vision.png" alt="" id="imgM"/>
               </div>
             </div>
           </div>
@@ -33,8 +33,8 @@ function QuienesSomos() {
               </div>
               <div className="Mision flipCardBack">
                 <h3 id="tituloM">Visión</h3>
-                <p id="textoM">Ser aliados estratégicos de nuestros clientes y Compañías de Seguros creando oportunidades y beneficios que permitan el crecimiento mutuo, enmarcados dentro del respeto y transparencia de los compromisos</p>
-                <img src="https://placehold.co/200x200" alt="" id="imgM"/>
+                <p id="textoM" style={{marginTop:"45px"}}>Ser aliados estratégicos de nuestros clientes y Compañías de Seguros creando oportunidades y beneficios que permitan el crecimiento mutuo, enmarcados dentro del respeto y transparencia de los compromisos</p>
+                <img src="/imgs/Mision.png" alt="" id="imgM"/>
               </div>
             </div>
           </div>

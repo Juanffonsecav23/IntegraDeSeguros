@@ -3,7 +3,7 @@
 }
 
 #concatVarHeader{
-    background-color: #00008b;
+    background:/* linear-gradient(120deg, rgb(145, 184, 255) 30%, rgb(0, 0, 203) 88%) */ blue;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-evenly;
@@ -35,7 +35,7 @@
   display: block;
   width: 0;
   height: 3px;
-  background-color: darkblue;
+  background-color: blue;
   transition: all .3s;
   }
 .itemList:hover::before{
@@ -49,7 +49,7 @@
 }
 .itemListLink {
     list-style: none;
-    color: darkblue;
+    color: blue;
     text-decoration: none;
 }
 .dropdownItems{
@@ -58,7 +58,7 @@
 /* dropdown */
 .dropbtn {
     background-color:white;
-    color: darkblue;
+    color: blue;
     padding: 16px;
     border: none;
     cursor: pointer;
@@ -79,7 +79,7 @@
 }
 
 .dropdown-content a {
-  color:darkblue;
+  color:blue;
   padding: 12px 16px;
   text-decoration: none;
   display: block;

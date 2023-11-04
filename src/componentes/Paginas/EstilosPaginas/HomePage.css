@@ -8,9 +8,13 @@
     justify-content: space-evenly;
     margin-top: 2%;
 }
+.logosItems{
+    width:260px ;
+    height: 200px;
+}
 .titleAlies{
 margin: 5px 0 0 10px;
-color: darkblue;
+color: blue;
 }
 .boxes{
     display:grid;
@@ -53,7 +57,7 @@ color: darkblue;
 }
 .flipCardFront {
     background-color: white;
-    color: darkblue;
+    color: blue;
     padding-top: 12rem;
 }
 .flipCardBack {
@@ -62,12 +66,14 @@ color: darkblue;
 }
 #tituloM{
     grid-area: tituloM;
-    color: darkblue;
+    color: blue;
 }
 #textoM{
     grid-area: textoM;
-    width: 80%;
+    width: 90%;
     margin-left: 10%;
+    text-align:justify;
+
 }
 #imgM{
     grid-area: imgM;
@@ -82,4 +88,15 @@ color: darkblue;
     grid-template-areas: 
     "tituloM tituloM "
     "textoM imgM";
+}
+.contactoHP{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.formHP{
+    width: 600px;
+    height: 400px;
 }

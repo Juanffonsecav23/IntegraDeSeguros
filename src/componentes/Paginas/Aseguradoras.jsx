@@ -3,7 +3,7 @@ import ItemListContainerAseguradoras from "../ItemListContainer/ItemListContaine
 function Aseguradoras() {
   return (
     <div>
-        <h1>Aseguradoras</h1>
+        <h1 className="tituloQS">Aseguradoras</h1>
         <ItemListContainerAseguradoras/>
     </div>
   )

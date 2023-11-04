@@ -1,9 +1,9 @@
 .tituloQS{
-    color: darkblue;
+    color: white;
     text-align: center;
     padding-top: 55px;
     height: 200px;
-    background:linear-gradient(120deg, rgb(145, 184, 255) 30%, rgb(0, 0, 203) 88%); 
+    background:linear-gradient(120deg, rgb(145, 184, 255) 30%, blue 88%); 
 }
 .sloganQS{
     text-align: center;

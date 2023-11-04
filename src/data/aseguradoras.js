@@ -2,7 +2,7 @@ const aseguradoras = [
     {
         id: 1,
         title:"Mapfre",
-        img:"/public/imgs/Mapfre_logo.png",
+        img:"/imgs/Mapfre_logo.png",
         description: "####"
     },
     {

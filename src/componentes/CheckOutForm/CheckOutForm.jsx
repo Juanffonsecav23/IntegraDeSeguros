@@ -3,10 +3,22 @@ import { useState } from "react"
 import "./CheckOutForm.css";
 import { useNavigate } from "react-router-dom";
 import { formData } from "../../servicios/Firebase";
+import Swal from "sweetalert2";
 
 function CheckOutForm() {
 
     const navigateToMessageConfirmation = useNavigate();
+
+    const showAlert = () => {
+        Swal.fire({
+            title: 'Solicitud envida con exito',
+            icon: 'success',
+            iconColor: "blue",
+            focusConfirm: true,
+            confirmButtonText: 'OK',
+            confirmButtonColor: "blue"
+        })
+        }
 
     async function onHandleConfrim (userData){
         const order ={
@@ -14,7 +26,7 @@ function CheckOutForm() {
             date: new Date(),
         }
         const id = await formData(order)
-        navigateToMessageConfirmation(`/med¡ssage-confirmation/${id}`)
+        navigateToMessageConfirmation(`/messageConfirmation/${id}`)
     }
     const [userData , setUserData] = useState({
         nombre: "",
@@ -33,13 +45,13 @@ function CheckOutForm() {
     }
     function onSubmit(evt) {
         evt.preventDefault();
-        onHandleConfrim(userData)
-        console.log(userData);
+        onHandleConfrim(userData);
+        showAlert();
     }
 
   return (
     <div className="checkoutform-Container">
-        <h3>Dejanos tus datos personales y nosotros te contactamos</h3>
+        <h3 style={{color:"blue"}}>Para mas información dejanos tus datos y te contactaremos</h3>
         <div>
             <label >Nombre(s) :</label>
             <input className="input-Form" value={userData.nombre} name="nombre" type="text" onChange={onInputChange} />

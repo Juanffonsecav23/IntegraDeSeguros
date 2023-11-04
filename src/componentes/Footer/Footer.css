@@ -3,7 +3,7 @@
 .footer {
   position: relative;
   width: 100%;
-  background: darkblue;
+  background: blue;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -25,10 +25,11 @@
   align-items: center;
   width: 100%;
   margin-top: 20px;
+  opacity: 0.75;
 }
 .linkFooter{
   text-decoration: none;
-  color: white;
+  color: #ffffff;
 }
 .social-icon,
 .menu {
