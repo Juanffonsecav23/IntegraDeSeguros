@@ -5,21 +5,25 @@
     height: 200px;
     background:linear-gradient(120deg, rgb(145, 184, 255) 30%, blue 88%); 
 }
-.sloganQS{
-    text-align: center;
-    margin-bottom: 20px;
-}
+
 .boxQS{/* imagenes de los slogans */ 
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
 }
 .imgBoxes{/* imagenes de los slogans */ 
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.sloganQS{
+    text-align: center;
+    margin: 20px;
+    color: blue;
+    font-family: 'Dancing Script', cursive;
 }
 .textoQS{
-    text-align: center;
-    margin: 30px 20% 30px 20%;
+    text-align: justify;
+    margin: 30px 10% 30px 10%;
 }
 .boxesQS{
     display: flex;

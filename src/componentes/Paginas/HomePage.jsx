@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import Carousel from "../Carousel/Carousel"
 import CheckOutForm from "../CheckOutForm/CheckOutForm"
 import "./EstilosPaginas/HomePage.css"
@@ -8,7 +7,6 @@ function HomePage(onHandleConfrim) {
       <div>
           <img src="/imgs/manosJuntas.png" alt="" className="imgHp"/>
           <h2 className="titleAlies">Aseguradoras aliadas</h2>
-          <Link to="/Aseguradoras">
             <Carousel>
             <div  className="logosEmpresas">
               <img src="/imgs/Mapfre_logo.jpeg" alt="Mapfre" className="logosItems" />
@@ -20,10 +18,9 @@ function HomePage(onHandleConfrim) {
               <img src="/imgs/HDI_logo.jpeg" alt="" className="logosItems"/>
               <img src="/imgs/Liberty_logo.jpeg" alt="" className="logosItems"/>
               <img src="/imgs/SegurosDelEstado_logo.gif" alt="" className="logosItems"/>
-              <img src="/imgs/SegurosMundial_logo.jpeg" alt="" className="logosItems"/>
+              <img src="/imgs/SegurosMundial_logo.jpeg" alt="" className="logosItems" />
             </div>
             </Carousel>
-          </Link>
           <section className="boxes">
             <div className="boxesItems flipCard">{/* Quienes Somos */}
                 <div className="flipCardInner">
@@ -32,8 +29,9 @@ function HomePage(onHandleConfrim) {
                   </div>
                   <div className="flipCardBack Mision">
                     <h3 id="tituloM">Quienes Somos</h3>
-                    <img src="https://placehold.co/200x200" alt="" id="imgM" />
-                    <p id="textoM">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolor, eveniet nihil nisi modi expedita magnam laboriosam blanditiis cumque voluptatum dolores asperiores quas quia quam dolore inventore doloremque nam voluptas!</p>
+                    <img src="/imgs/TeamWork-bro.svg" alt="" id="imgM" style={{marginTop:"40px"}} />
+                    <p id="textoM" >Integral Asesores de Seguros, establecida en 1995, es una empresa que ha ganado reconocimiento por su compromiso, integridad y fiabilidad. A lo largo de los años, se ha fortalecido en el ámbito de la asesoría, venta, suscripción y gestión de seguros en una variedad de categorías disponibles en el mercado.
+                    </p>
                   </div>
                 </div>
             </div>
@@ -45,11 +43,11 @@ function HomePage(onHandleConfrim) {
                 <div className="Mision flipCardBack">
                   <h3 id="tituloM">Misión</h3>
                   <p id="textoM" style={{marginTop:"30px"}} >Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
-                  <img src="/imgs/Vision.png" alt="" id="imgM"  />
+                  <img src="/imgs/Partnership-bro.svg" alt="" id="imgM"  />
                 </div>
               </div>
             </div>
-            <div className="boxesItems flipCard">
+            <div className="boxesItems flipCard">{/* Vision */}
               <div className="flipCardInner">
                 <div className="flipCardFront">
                   <h3>Vision</h3>

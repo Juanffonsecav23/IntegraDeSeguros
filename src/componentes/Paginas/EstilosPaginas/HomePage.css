@@ -73,12 +73,10 @@ color: blue;
     width: 90%;
     margin-left: 10%;
     text-align:justify;
-
 }
 #imgM{
     grid-area: imgM;
     margin-left: 10px;
-    border-radius: 50%;
     width: 200px;
     height: 200px;
     margin-right: 10px;

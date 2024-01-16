@@ -1,6 +1,6 @@
 function Carousel({children}) {
     return (
-      <div id="carouselExample" className="carousel slide">
+      <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
         <div className="carousel-inner">
           {children.map((slide, index) => (
             <div
