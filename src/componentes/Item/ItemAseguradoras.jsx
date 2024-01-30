@@ -1,6 +1,6 @@
 import "./Item.css"
 
-function ItemSeguros ({title , img , description, telefono ,LNacional }){
+function ItemSeguros ({title , img , description, telefono ,LNacional,celular }){
     return(
         <div className="itemCard">
             <div className="itemCardImg">
@@ -11,6 +11,7 @@ function ItemSeguros ({title , img , description, telefono ,LNacional }){
             <p>Numeral: {description}</p>
             <p>Telefono: {telefono}</p>
             <p>Linea Nacional: {LNacional}</p>
+            <p>Celular: {celular}</p>
             </div>
         </div>
     )

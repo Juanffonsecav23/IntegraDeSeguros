@@ -1,6 +1,8 @@
+import { Link } from "react-router-dom"
 import Carousel from "../Carousel/Carousel"
 import CheckOutForm from "../CheckOutForm/CheckOutForm"
 import "./EstilosPaginas/HomePage.css"
+
 
 function HomePage(onHandleConfrim) {
   return (
@@ -9,16 +11,16 @@ function HomePage(onHandleConfrim) {
           <h2 className="titleAlies">Aseguradoras aliadas</h2>
             <Carousel>
             <div  className="logosEmpresas">
-              <img src="/imgs/Mapfre_logo.jpeg" alt="Mapfre" className="logosItems" />
-              <img src="/imgs/AxaColpatria_logo.jpeg" alt="" className="logosItems"/>
-              <img src="/imgs/Bolivar_logo.png" alt="" className="logosItems"/>
-              <img src="/imgs/SegurosSura_logo.jpeg" alt=""className="logosItems" />
+              <Link to='/Aseguradoras'><img src="/imgs/Mapfre_logo.jpeg" alt="Mapfre" className="logosItems" /></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/AxaColpatria_logo.jpeg" alt="" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/Bolivar_logo.png" alt="" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/SegurosSura_logo.jpeg" alt=""className="logosItems" /></Link>
             </div>
             <div  className="logosEmpresas">
-              <img src="/imgs/HDI_logo.jpeg" alt="" className="logosItems"/>
-              <img src="/imgs/Liberty_logo.jpeg" alt="" className="logosItems"/>
-              <img src="/imgs/SegurosDelEstado_logo.gif" alt="" className="logosItems"/>
-              <img src="/imgs/SegurosMundial_logo.jpeg" alt="" className="logosItems" />
+              <Link to='/Aseguradoras'><img src="/imgs/HDI_logo.jpeg" alt="" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/Liberty_logo.jpeg" alt="" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/SegurosDelEstado_logo.gif" alt="" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/SegurosMundial_logo.jpeg" alt="" className="logosItems" /></Link>
             </div>
             </Carousel>
           <section className="boxes">

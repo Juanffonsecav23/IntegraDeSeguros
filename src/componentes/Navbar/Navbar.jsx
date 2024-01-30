@@ -19,9 +19,8 @@ return (
             <li className="dropdown itemList tres">
             <button className="dropbtn"><NavLink to="/Seguros" className="itemListLink">Seguros ▼ </NavLink></button>
             <div className="dropdown-content">
-            <NavLink to="/Seguros/Hogar" className="itemListLink tres itemList dropdownItems" >Hogar</NavLink>
-            <NavLink to="/Seguros/Vehiculos" className="itemListLink tres itemList dropdownItems" >Vehiculos</NavLink>
-            <NavLink to="/Seguros/Personas" className="itemListLink tres itemList dropdownItems" >Personas</NavLink>
+            <NavLink to="/Seguros/Generales" className="itemListLink tres itemList dropdownItems" >Generales</NavLink>
+            <NavLink to="/Seguros/Vida" className="itemListLink tres itemList dropdownItems" >Vida</NavLink>
             </div>
             </li>
             <li className="itemList tres"><NavLink to="/Aseguradoras" className="itemListLink" >Aseguradoras</NavLink></li>
