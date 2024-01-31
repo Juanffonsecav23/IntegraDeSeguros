@@ -1,6 +1,6 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import {addDoc, collection, getDocs, getFirestore, query, where , doc , getDoc} from "firebase/firestore";
+import {addDoc, collection, getDocs, getFirestore, query, where , doc , getDoc, orderBy} from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
@@ -26,8 +26,22 @@ export async function getSegurosData() {
   const dataDocs = arrayDocs.map(doc =>{
     return {...doc.data(), id: doc.id }
   });
+
+  dataDocs.sort((a, b) => {
+    const titleA = a.title.toUpperCase();
+    const titleB = b.title.toUpperCase();
+    if (titleA < titleB) {
+      return -1;
+    }
+    if (titleA > titleB) {
+      return 1;
+    }
+    return 0;
+  });
+
   return dataDocs;
 }
+
 
 //Funcion para los datos de los seguros individuales
 
@@ -47,6 +61,19 @@ export async function segurosDataFiltrado(categoryId){
   const dataDocs = arrayDocs.map(doc =>{
     return {...doc.data(), id: doc.id }
   });
+
+  dataDocs.sort((a, b) => {
+    const titleA = a.title.toUpperCase();
+    const titleB = b.title.toUpperCase();
+    if (titleA < titleB) {
+      return -1;
+    }
+    if (titleA > titleB) {
+      return 1;
+    }
+    return 0;
+  });
+
   return dataDocs;
 }
 
