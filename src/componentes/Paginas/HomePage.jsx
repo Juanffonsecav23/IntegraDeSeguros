@@ -7,7 +7,7 @@ import "./EstilosPaginas/HomePage.css"
 function HomePage(onHandleConfrim) {
   return (
       <div>
-          <img src="/imgs/manosJuntas.png" alt="" className="imgHp"/>
+          <img src="/imgs/portadaIntegral.png" alt="" className="imgHp animate__animated animate__zoomIn"/>
           <h2 className="titleAlies">Aseguradoras aliadas</h2>
             <Carousel>
             <div  className="logosEmpresas">

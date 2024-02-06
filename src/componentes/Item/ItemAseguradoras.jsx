@@ -2,11 +2,11 @@ import "./Item.css"
 
 function ItemSeguros ({title , img , description, telefono ,LNacional,celular }){
     return(
-        <div className="itemCard">
-            <div className="itemCardImg">
+        <div className="itemCardAseguradoras">
+            <div className="itemCardImgAseguradoras">
                 <img src={img} alt="imagen" style={{width: "100%" , height:"100%"}} />
             </div>
-            <div className="itemCardBody">
+            <div className="itemCardBodyAseguradoras">
             <h4 style={{color:"darkblue"}}>{title}</h4>
             <p>Numeral: {description}</p>
             <p>Telefono: {telefono}</p>

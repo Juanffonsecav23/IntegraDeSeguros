@@ -1,4 +1,4 @@
-.itemCard{
+.itemCardAseguradoras{
     color: black;
     text-align: center;
     position: relative;
@@ -10,16 +10,96 @@
     background-color: #fff;
     overflow: hidden;  
     transition: all 0.20s ease-in;
-    cursor: pointer;
 }
-.itemCardImg{
+.itemCardAseguradoras:hover{
+    box-shadow: 0px 4px 15px  rgba(0,0,0,0.1);
+    transform: translateY(-6px);
+}
+.itemCardImgAseguradoras{
     height: 15rem;
 }
-.itemCardHeader{
+.itemCardHeaderAseguradoras{
     background-color: rgb(233, 233, 233);
     font-size: large;
     padding-bottom: 12px;
 }
-.itemCardBody{
+.itemCardBodyAseguradoras{
     text-decoration: none;
+}
+
+.itemCardSeguros{
+    color: black;
+    text-align: center;
+    position: relative;
+    margin: 10px 15px;
+    width: 445px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+    background-color: #fff;
+    overflow: hidden;  
+    transition: all 0.20s ease-in;
+}
+.itemCardSeguros:hover{
+    box-shadow: 0px 4px 15px  rgba(0,0,0,0.1);
+    transform: translateY(-6px);
+}
+.itemCardImgSeguros{
+    height: 15rem;
+}
+.imgSeguros{
+    width: 260px;
+    height: 240px;
+}
+.itemCardHeaderSeguros{
+    background-color: rgb(195, 218, 240);
+    font-size: large;
+    padding-bottom: 12px;
+}
+.itemCardBodySeguros{
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+.itemDescriptionSeguros{
+    width: 100%;
+    align-self: center;
+
+}
+
+.itemCard2{
+    display: flex;
+    flex-flow: row nowrap;
+    color: black;
+    text-align: center;
+    position: relative;
+    margin: 10px 15px;
+    width: 550px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+    background-color: #fff;
+    overflow: hidden;  
+    transition: all 0.20s ease-in;
+    cursor: pointer;
+}
+.itemCardImg2{
+    height: 15rem;
+}
+.itemCardHeader2{
+    background-color: rgb(195, 218, 240);
+    font-size: large;
+    padding-bottom: 12px;
+}
+.itemCardBody2{
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    width: 100%;
+}
+.itemDescription2{
+    width: 100%;
+    align-self: center;
+}
+.listItemDescription{
+    margin: 10px 0px 10px 0px;
 }

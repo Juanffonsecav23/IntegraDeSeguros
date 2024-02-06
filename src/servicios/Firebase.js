@@ -16,6 +16,20 @@ const firebaseConfig = {
 const FirebaseApp = initializeApp(firebaseConfig);
 const db = getFirestore(FirebaseApp);
 
+//Funcion para ordenar los items
+
+function ordenar(a,b) {
+  const titleA = a.title.toUpperCase();
+  const titleB = b.title.toUpperCase();
+  if (titleA < titleB) {
+    return -1;
+  }
+  if (titleA > titleB) {
+    return 1;
+  }
+  return 0;
+}
+
 // Funcion para los datos de los seguros
 
 export async function getSegurosData() {
@@ -27,17 +41,7 @@ export async function getSegurosData() {
     return {...doc.data(), id: doc.id }
   });
 
-  dataDocs.sort((a, b) => {
-    const titleA = a.title.toUpperCase();
-    const titleB = b.title.toUpperCase();
-    if (titleA < titleB) {
-      return -1;
-    }
-    if (titleA > titleB) {
-      return 1;
-    }
-    return 0;
-  });
+  dataDocs.sort(ordenar);
 
   return dataDocs;
 }
@@ -62,17 +66,7 @@ export async function segurosDataFiltrado(categoryId){
     return {...doc.data(), id: doc.id }
   });
 
-  dataDocs.sort((a, b) => {
-    const titleA = a.title.toUpperCase();
-    const titleB = b.title.toUpperCase();
-    if (titleA < titleB) {
-      return -1;
-    }
-    if (titleA > titleB) {
-      return 1;
-    }
-    return 0;
-  });
+  dataDocs.sort(ordenar);
 
   return dataDocs;
 }

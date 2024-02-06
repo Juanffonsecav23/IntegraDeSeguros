@@ -4,9 +4,9 @@ function QuienesSomos() {
     <div>
         <h1 className="tituloQS">Quienes Somos</h1>
         <div className="boxQS">
-          <img src="/imgs/TeamWork-bro.svg" alt="" className="imgBoxes" />
-          <img src="/imgs/Consulting-bro.svg" alt="" className="imgBoxes" />
-          <img src="/imgs/Personal finance-cuate.svg" alt="" className="imgBoxes" />
+          <img src="/imgs/TeamWork-bro.svg" alt="" className="imgBoxes animate__animated animate__backInLeft" />
+          <img src="/imgs/Consulting-bro.svg" alt="" className="imgBoxes animate__animated animate__backInUp" />
+          <img src="/imgs/Personal finance-cuate.svg" alt="" className="imgBoxes animate__animated animate__backInRight" />
         </div>
         <h2 className="sloganQS">Servir para Construir</h2>
         <div className="textoQS">
