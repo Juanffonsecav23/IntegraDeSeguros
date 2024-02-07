@@ -15,22 +15,8 @@ function ItemSeguros ({title, img, category, id, description }) {
         
     }
     
-    return(<Link to={`/seguro/${id}`} style={{textDecoration:"none"}}>
-
-            {/* <div className="itemCard2" >
-                  <div className="">
-                    <div className="itemCardHeader2">
-                      <h4>{title}</h4>
-                      <small>{category}</small>
-                    </div>
-                    <img src={img} alt="" />
-                  </div>
-                  <div className="itemCardBody2">
-                    <ul className="itemDescription2">
-                        <DescriptionValid />
-                    </ul>
-                  </div>
-            </div> */}
+    return(
+      <a href="https://api.whatsapp.com/send?phone=3133331128" target="_blank"  rel="noreferrer" style={{textDecoration:"none"}}>
             <div className="itemCardSeguros" >
                   <div className="itemCardHeaderSeguros">
                     <h4>{title}</h4>
@@ -43,20 +29,7 @@ function ItemSeguros ({title, img, category, id, description }) {
                     </ul>
                   </div>
           </div>
-            {/* <div className="itemCard" >
-                <div className="itemCardBody">
-                    <div className="itemCardImg">
-                        <img src={img} alt="imagen" />
-                    </div>
-                    <h4>{title}</h4>
-                    <small>{category}</small>
-                    <ul>
-                        <DescriptionValid />
-                    </ul>
-                </div>
-            </div> */}
-            </Link>
-
+      </a>
     )
 }
 

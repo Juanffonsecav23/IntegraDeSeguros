@@ -24,7 +24,7 @@ function App() {
       <Route path='/QuienesSomos' element={<QuienesSomos/>}/>
       <Route path='/Servicios' element={<Servicios/>}/>
       <Route path='/Seguros' element={<Seguros/>}/>
-      <Route path='/Seguro/:id' element={<ItemDetailContainer/>}/>
+{/*   <Route path='/Seguro/:id' element={<ItemDetailContainer/>}/>*/}      
       <Route path='/Seguros/:categoryId' element={<ItemListContainer/>}/>
       <Route path='/messageConfirmation/:id' element={<MessageVerify/>}/>
       <Route path='/Aseguradoras' element={<Aseguradoras/>}/>
