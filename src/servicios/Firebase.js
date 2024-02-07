@@ -82,6 +82,9 @@ export async function getAseguradorasData() {
   const dataDocs = arrayDocs.map(doc =>{
     return {...doc.data(), id: doc.id }
   });
+
+  dataDocs.sort(ordenar);
+
   return dataDocs;
 }
 
