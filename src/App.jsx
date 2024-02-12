@@ -10,7 +10,7 @@ import Aseguradoras from './componentes/Paginas/Aseguradoras'
 import Contacto from './componentes/Paginas/Contacto'
 import WhatsappButton from './componentes/WhatsappButton/WhatsappButton'
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainerSeguros'
-import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer'
+/* import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer' */
 import MessageVerify from './componentes/MessageVerify/MessageVerify'
 
 function App() {

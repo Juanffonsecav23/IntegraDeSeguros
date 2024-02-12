@@ -17,7 +17,7 @@ function ItemListContainer() {
         .finally(()=> {setIsLoading(false)})
     }, [categoryId]);
 
-    return <ItemListSeguros isLoading={isLoading} seguros={seguros}/>;
+    return <ItemListSeguros isLoading={isLoading} seguros={seguros} category={categoryId}/>;
 }
 
 export default ItemListContainer
