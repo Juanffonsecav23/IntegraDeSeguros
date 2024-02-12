@@ -22,7 +22,7 @@ function App() {
     <Routes>
       <Route path='/' element={<HomePage/>}/>
       <Route path='/QuienesSomos' element={<QuienesSomos/>}/>
-      <Route path='/Servicios' element={<Servicios/>}/>
+      <Route path='/Filosofia' element={<Servicios/>}/>
       <Route path='/Seguros' element={<Seguros/>}/>
 {/*   <Route path='/Seguro/:id' element={<ItemDetailContainer/>}/>*/}      
       <Route path='/Seguros/:categoryId' element={<ItemListContainer/>}/>

@@ -15,7 +15,7 @@ return (
         <ul className="menu">
             <li className="itemList tres"><NavLink to="/" className="itemListLink"><img src="/icons/LogoIntegralAzul.svg" style={{width:"70px"}}/></NavLink></li>
             <li className="itemList tres"><NavLink to="/QuienesSomos" className="itemListLink" >Quienes Somos</NavLink></li>
-            <li className="itemList tres"><NavLink to="/Servicios" className="itemListLink" >Servicios</NavLink></li>
+            <li className="itemList tres"><NavLink to="/Filosofia" className="itemListLink" >Filosofía</NavLink></li>
             <li className="dropdown itemList tres">
             <button className="dropbtn"><NavLink to="/Seguros" className="itemListLink">Seguros ▼ </NavLink></button>
             <div className="dropdown-content">

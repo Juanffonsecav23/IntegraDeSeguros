@@ -7,7 +7,19 @@
 }
 .ListaServicios{
     margin-left: 8%;
+    list-style: none;
 }
 .itemListaServicio{
     margin: 45px 0 45px 0;
+    height: 20px;
+}
+.flexItemList{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.itemListTitle{
+    color: blue;
+}
+.itemListText{
+    padding-top:10px;
 }
