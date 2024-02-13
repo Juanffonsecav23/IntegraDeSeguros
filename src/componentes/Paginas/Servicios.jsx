@@ -4,7 +4,20 @@ function Servicios() {
     <div>
         <h1 className="tituloQS">Filosofía</h1>
         <div className="CajaServicios">
-          <img src="/imgs/injury-amico.png" alt="" style={{width:"400px" , height:"400px"}} className=" animate__animated animate__fadeInDown"/>
+          <div className="listaImagenes" >
+              <div>
+                <img src="/imgs/innovar.jpg" alt="Innovación" style={{borderRadius:"30px", border:"solid gray 2px"}} className=" animate__animated animate__fadeInDown"/>
+              </div>
+              <div>
+                <img src="/imgs/negociar.jpg" alt="Negociación" style={{borderRadius:"30px"}} className=" animate__animated animate__fadeInDown"/>
+              </div>
+              <div>
+                <img src="/imgs/trabajar.jpg" alt="Trabajar" style={{borderRadius:"30px"}} className=" animate__animated animate__fadeInDown"/>
+              </div>
+              <div>
+                <img src="/imgs/emprender.jpg" alt="Emprender"style={{borderRadius:"30px"}} className=" animate__animated animate__fadeInDown"/>
+            </div>
+          </div>
           <ul className="ListaServicios">
             <li className="itemListaServicio animate__animated animate__backInLeft">
               <div className="flexItemList">
@@ -47,6 +60,20 @@ function Servicios() {
               </div>
             </li>
           </ul>
+          <div className="listaImagenes">
+              <div>
+                <img src="/imgs/innovar.jpg" alt=""  className=" animate__animated animate__fadeInDown"/>
+              </div>
+              <div>
+                <img src="/imgs/negociar.jpg" alt=""  className=" animate__animated animate__fadeInDown"/>
+              </div>
+              <div>
+                <img src="/imgs/trabajar.jpg" alt=""  className=" animate__animated animate__fadeInDown"/>
+              </div>
+              <div>
+                <img src="/imgs/emprender.jpg" alt=""  className=" animate__animated animate__fadeInDown"/>
+            </div>
+          </div>
         </div>
     </div>
   )
