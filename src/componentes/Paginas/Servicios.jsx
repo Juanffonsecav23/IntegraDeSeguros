@@ -4,18 +4,18 @@ function Servicios() {
     <div>
         <h1 className="tituloQS">Filosofía</h1>
         <div className="CajaServicios">
-          <div className="listaImagenes" >
+          <div className="listaImagenes animate__animated animate__fadeInDown" >
               <div>
-                <img src="/imgs/innovar.jpg" alt="Innovación" style={{borderRadius:"30px", border:"solid gray 2px"}} className=" animate__animated animate__fadeInDown"/>
+                <img src="/imgs/innovar.png" alt="Innovación" style={{borderRadius:"30px", border:"solid gray 2px"}} />
               </div>
               <div>
-                <img src="/imgs/negociar.jpg" alt="Negociación" style={{borderRadius:"30px"}} className=" animate__animated animate__fadeInDown"/>
+                <img src="/imgs/negociar.png" alt="Negociación" style={{borderRadius:"30px", border:"solid gray 2px"}}/>
               </div>
               <div>
-                <img src="/imgs/trabajar.jpg" alt="Trabajar" style={{borderRadius:"30px"}} className=" animate__animated animate__fadeInDown"/>
+                <img src="/imgs/trabajar.png" alt="Trabajar" style={{borderRadius:"30px", border:"solid gray 2px"}}/>
               </div>
               <div>
-                <img src="/imgs/emprender.jpg" alt="Emprender"style={{borderRadius:"30px"}} className=" animate__animated animate__fadeInDown"/>
+                <img src="/imgs/emprender.png" alt="Emprender" style={{borderRadius:"30px", border:"solid gray 2px"}}/>
             </div>
           </div>
           <ul className="ListaServicios">
@@ -60,18 +60,18 @@ function Servicios() {
               </div>
             </li>
           </ul>
-          <div className="listaImagenes">
+          <div className="listaImagenes animate__animated animate__fadeInDown">
               <div>
-                <img src="/imgs/innovar.jpg" alt=""  className=" animate__animated animate__fadeInDown"/>
+                <img src="/imgs/generar.png" alt="" style={{borderRadius:"30px", border:"solid gray 2px"}} />
               </div>
               <div>
-                <img src="/imgs/negociar.jpg" alt=""  className=" animate__animated animate__fadeInDown"/>
+                <img src="/imgs/resolver.png" alt="" style={{borderRadius:"30px", border:"solid gray 2px"}}/>
               </div>
               <div>
-                <img src="/imgs/trabajar.jpg" alt=""  className=" animate__animated animate__fadeInDown"/>
+                <img src="/imgs/aprender.png" alt="" style={{borderRadius:"30px", border:"solid gray 2px"}} />
               </div>
               <div>
-                <img src="/imgs/emprender.jpg" alt=""  className=" animate__animated animate__fadeInDown"/>
+                <img src="/imgs/liderar.png" alt="" style={{borderRadius:"30px", border:"solid gray 2px"}} />
             </div>
           </div>
         </div>

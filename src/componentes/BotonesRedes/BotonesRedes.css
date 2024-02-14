@@ -1,4 +1,3 @@
-
 .Instagram{
     display: flex;
     align-items: center;
@@ -9,6 +8,7 @@
     border-radius: 50px;
     background:linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7) ;
     transition: all 0.20s ease-in;
+    text-decoration: none;
 }
 .Instagram:hover{
     color: white;
@@ -25,6 +25,7 @@
     border-radius: 50px;
     background-Color:#0000ff;
     transition: all 0.20s ease-in;
+    text-decoration: none;
 }
 .Facebook:hover{
     color: white;

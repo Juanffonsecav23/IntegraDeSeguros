@@ -8,10 +8,10 @@ export function BotonosRedes() {
           <h3>Encuentranos en nuestras redes sociales</h3>
         </div>
             <div className="buttonsContacto">
-            <a href="https://instagram.com/casaaloha152?igshid=MzRlODBiNWFlZA==" className="Instagram animate__animated animate__slideInLeft">
+            <a href="https://www.instagram.com/integral_de_seguros?igsh=MWp4aTM2ZWhzdTN3dA==" className="Instagram animate__animated animate__slideInLeft">
               <Icon icon="mdi:instagram" width={50} /><p style={{marginTop:"15px"}}>Instagram</p>
             </a>
-            <a href="https://www.facebook.com/profile.php?id=100087745636618" className="Facebook animate__animated animate__slideInRight">
+            <a href="https://www.facebook.com/IntegraldeSegurosLTDA" className="Facebook animate__animated animate__slideInRight">
               <Icon icon="ic:baseline-facebook" width={50} /><p style={{marginTop:"15px"}}>Facebook</p>
             </a>
             </div>
