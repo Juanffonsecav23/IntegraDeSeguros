@@ -1,16 +1,4 @@
-.itemCardAseguradoras{
-    color: black;
-    text-align: center;
-    position: relative;
-    margin: 10px 15px;
-    padding-bottom: 25px;
-    width: 320px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
-    background-color: #fff;
-    overflow: hidden;  
-    transition: all 0.20s ease-in;
-}
+
 .itemCardAseguradoras:hover{
     box-shadow: 0px 4px 15px  rgba(0,0,0,0.1);
     transform: translateY(-6px);
@@ -26,30 +14,23 @@
 .itemCardBodyAseguradoras{
     text-decoration: none;
 }
-
-.itemCardSeguros{
-    color: black;
-    text-align: center;
-    position: relative;
-    margin: 10px 15px;
-    width: 445px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
-    background-color: #fff;
-    overflow: hidden;  
-    transition: all 0.20s ease-in;
+.callcenterBox{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
 }
+.linkTel{
+    color: blue;
+    text-decoration: none;
+}
+
+
 .itemCardSeguros:hover{
     box-shadow: 0px 4px 15px  rgba(0,0,0,0.1);
     transform: translateY(-6px);
 }
-.itemCardImgSeguros{
-    height: 15rem;
-}
-.imgSeguros{
-    width: 260px;
-    height: 240px;
-}
+
 .itemCardHeaderSeguros{
     background-color: rgb(195, 218, 240);
     font-size: large;
@@ -102,4 +83,76 @@
 }
 .listItemDescription{
     margin: 10px 0px 10px 0px;
+}
+
+/********* Mobile *********/
+
+@media only screen and (max-width:480px){
+    .itemCardSeguros{
+        color: black;
+        text-align: center;
+        position: relative;
+        margin: 10px 15px;
+        width: 350px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+        background-color: #fff;
+        overflow: hidden;  
+        transition: all 0.20s ease-in;
+    }
+    .itemCardAseguradoras{
+        color: black;
+        text-align: center;
+        position: relative;
+        margin: 10px 15px;
+        padding-bottom: 25px;
+        width: 320px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+        background-color: #fff;
+        overflow: hidden;  
+        transition: all 0.20s ease-in;
+    }
+    .itemCardImgSeguros{
+        height: 15rem;
+    }
+    .imgSeguros{
+        width: 160px;
+        height: 140px;
+    }
+}
+
+@media only screen and (min-width:979px){
+    .itemCardSeguros{
+        color: black;
+        text-align: center;
+        position: relative;
+        margin: 10px 15px;
+        width: 445px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+        background-color: #fff;
+        overflow: hidden;  
+        transition: all 0.20s ease-in;
+    }
+    .itemCardAseguradoras{
+        color: black;
+        text-align: center;
+        position: relative;
+        margin: 10px 15px;
+        padding-bottom: 25px;
+        width: 320px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+        background-color: #fff;
+        overflow: hidden;  
+        transition: all 0.20s ease-in;
+    }
+    .itemCardImgSeguros{
+        height: 15rem;
+    }
+    .imgSeguros{
+        width: 260px;
+        height: 240px;
+    }
 }

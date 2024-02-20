@@ -8,7 +8,7 @@
 
 .boxQS{/* imagenes de los slogans */ 
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-around;
 }
 .imgBoxes{/* imagenes de los slogans */ 
@@ -25,16 +25,33 @@
     text-align: justify;
     margin: 30px 10% 30px 10%;
 }
-.boxesQS{
-    display: flex;
-    flex-flow:row nowrap ;
-    justify-content: space-evenly;
-    gap: 10px;
-}
+
 .mvQS{
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
     height: 100%;
     background-color: white;
+}
+
+/********* Mobile *********/
+
+@media only screen and (max-width:480px){
+    .boxesQS{
+        display: flex;
+        flex-flow: column;
+        gap: 25px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width:979px){
+
+.boxesQS{
+    display: flex;
+    flex-flow:row wrap ;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
 }

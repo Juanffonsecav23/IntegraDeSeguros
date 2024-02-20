@@ -14,19 +14,19 @@ function QuienesSomos() {
           <p>Trabajamos con las más importantes y reconocidas compañías aseguradoras del país, contamos con personal competente, implementación en infraestructura física y tecnológica, procesos oportunos y eficientes, una amplia experiencia en el manejo de programas de seguros a nivel público y privado que evidencian nuestro respaldo y compromiso permanente con el mejoramiento continuo y la satisfacción de los clientes.</p>
         </div>
         <div className="boxesQS" >
-          <div className="boxesItems flipCard" style={{marginLeft:"50px", marginRight:"25px"}}>
+          <div className="boxesItems flipCard">
             <div className="  flipCardInner">
               <div className="flipCardFront">
                 <h3>Misión</h3>
               </div>
               <div className=" Mision flipCardBack">
                 <h3 id="tituloM">Misión</h3>
-                <p id="textoM" style={{marginTop:"45px"}}>Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
+                <p id="textoM">Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
                 <img src="/imgs/Partnership-bro.svg" alt="" id="imgM" />
               </div>
             </div>
           </div>
-          <div className="boxesItems flipCard" style={{marginRight:"50px" , marginLeft:"25px"}}>
+          <div className="boxesItems flipCard" >
             <div className=" flipCardInner">
               <div className="flipCardFront">
                 <h3>Visión</h3>

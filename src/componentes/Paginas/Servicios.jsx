@@ -6,16 +6,16 @@ function Servicios() {
         <div className="CajaServicios">
           <div className="listaImagenes animate__animated animate__fadeInDown" >
               <div>
-                <img src="/imgs/innovar.png" alt="Innovación" style={{borderRadius:"30px", border:"solid gray 2px"}} />
+                <img src="/imgs/innovar.png" alt="Innovación"  className="imgFilosofia"  />
               </div>
               <div>
-                <img src="/imgs/negociar.png" alt="Negociación" style={{borderRadius:"30px", border:"solid gray 2px"}}/>
+                <img src="/imgs/negociar.png" alt="Negociación" className="imgFilosofia" />
               </div>
               <div>
-                <img src="/imgs/trabajar.png" alt="Trabajar" style={{borderRadius:"30px", border:"solid gray 2px"}}/>
+                <img src="/imgs/trabajar.png" alt="Trabajar" className="imgFilosofia" />
               </div>
               <div>
-                <img src="/imgs/emprender.png" alt="Emprender" style={{borderRadius:"30px", border:"solid gray 2px"}}/>
+                <img src="/imgs/emprender.png" alt="Emprender" className="imgFilosofia" />
             </div>
           </div>
           <ul className="ListaServicios">
@@ -62,16 +62,16 @@ function Servicios() {
           </ul>
           <div className="listaImagenes animate__animated animate__fadeInDown">
               <div>
-                <img src="/imgs/generar.png" alt="" style={{borderRadius:"30px", border:"solid gray 2px"}} />
+                <img src="/imgs/generar.png" alt=""className="imgFilosofia" />
               </div>
               <div>
-                <img src="/imgs/resolver.png" alt="" style={{borderRadius:"30px", border:"solid gray 2px"}}/>
+                <img src="/imgs/resolver.png" alt="" className="imgFilosofia"/>
               </div>
               <div>
-                <img src="/imgs/aprender.png" alt="" style={{borderRadius:"30px", border:"solid gray 2px"}} />
+                <img src="/imgs/aprender.png" alt="" className="imgFilosofia" />
               </div>
               <div>
-                <img src="/imgs/liderar.png" alt="" style={{borderRadius:"30px", border:"solid gray 2px"}} />
+                <img src="/imgs/liderar.png" alt=""className="imgFilosofia"  />
             </div>
           </div>
         </div>

@@ -8,9 +8,10 @@ function ItemSeguros ({title , img , description, telefono ,LNacional }){
             </div>
             <div className="itemCardBodyAseguradoras">
             <h4 style={{color:"darkblue"}}>{title}</h4>
-            <p>Numeral: {description}</p>
-            <p>Telefono: {telefono}</p>
-            <p>Linea Nacional: {LNacional}</p>
+            <div className="callcenterBox">
+            <a className="linkTel" href={`tel:${description}`}>Numeral: {description}</a>
+            <a className="linkTel" href={`tel:${telefono}`}>Telefono: {telefono}</a>
+            <a className="linkTel" href={`tel:${LNacional}`}>Linea Nacional: {LNacional}</a></div>
             </div>
         </div>
     )
