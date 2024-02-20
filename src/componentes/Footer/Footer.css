@@ -5,7 +5,7 @@
   width: 100%;
   background: blue;
   min-height: 100px;
-  padding: 20px 50px;
+  padding: 20px ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,15 +18,7 @@
   align-items: center;
   width: 100%;
 }
-.menuFooter{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
-  margin-top: 20px;
-  opacity: 0.75;
-}
+
 .linkFooter{
   text-decoration: none;
   color: #ffffff;
@@ -78,4 +70,34 @@
   margin: 15px 0 10px 0;
   font-size: 1rem;
   font-weight: 300;
+}
+
+
+/********* Mobile *********/
+
+@media only screen and (max-width:480px){
+  .menuFooter{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    opacity: 0.75;
+  }
+
+}
+
+
+@media only screen and (min-width:979px){
+  .menuFooter{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    opacity: 0.75;
+  }
+
 }

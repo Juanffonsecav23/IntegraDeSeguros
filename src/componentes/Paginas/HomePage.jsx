@@ -31,7 +31,7 @@ function HomePage(onHandleConfrim) {
                   </div>
                   <div className="flipCardBack Mision">
                     <h3 id="tituloM">Quienes Somos</h3>
-                    <img src="/imgs/TeamWork-bro.svg" alt="" id="imgM" style={{marginTop:"40px"}} />
+                    <img src="/imgs/TeamWork-bro.svg" alt="" id="imgM" />
                     <p id="textoM" >Integral Asesores de Seguros, establecida en 1995, es una empresa que ha ganado reconocimiento por su compromiso, integridad y fiabilidad. A lo largo de los años, se ha fortalecido en el ámbito de la asesoría, venta, suscripción y gestión de seguros en una variedad de categorías disponibles en el mercado.
                     </p>
                   </div>
@@ -44,7 +44,7 @@ function HomePage(onHandleConfrim) {
                 </div>
                 <div className="Mision flipCardBack">
                   <h3 id="tituloM">Misión</h3>
-                  <p id="textoM" style={{marginTop:"30px"}} >Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
+                  <p id="textoM" >Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
                   <img src="/imgs/Partnership-bro.svg" alt="" id="imgM"  />
                 </div>
               </div>
@@ -64,7 +64,7 @@ function HomePage(onHandleConfrim) {
           </section>
           <div className="contactoHP">
             <CheckOutForm onHandleConfrim={onHandleConfrim} className="formHP"/>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15907.256290953768!2d-74.0830455!3d4.6272367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bd5ddc8baa7%3A0x5c940c8afd6e3c51!2sIntegral%20de%20Seguros!5e0!3m2!1ses-419!2sco!4v1698196700312!5m2!1ses-419!2sco" style={{width:"800px" , height:"550px", marginRight:"30px"}}  loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15907.256290953768!2d-74.0830455!3d4.6272367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bd5ddc8baa7%3A0x5c940c8afd6e3c51!2sIntegral%20de%20Seguros!5e0!3m2!1ses-419!2sco!4v1698196700312!5m2!1ses-419!2sco"  className="mapaHP"   loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
       </div>
   )

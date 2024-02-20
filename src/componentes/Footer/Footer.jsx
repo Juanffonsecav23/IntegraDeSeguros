@@ -20,10 +20,10 @@ function Footer() {
             <img src="/icons/google.svg" alt="Logo de Google" />
           </a></li>
       </ul>
-        <ul className="menu">
+        <ul className="menuFooter">
           <li className="menu__item"><Link className="menu__link" to="/">Inicio</Link></li>
           <li className="menu__item"><Link className="menu__link" to="/QuienesSomos">Quienes Somos</Link></li>
-          <li className="menu__item"><Link className="menu__link" to="/Servicios">Servicios</Link></li>
+          <li className="menu__item"><Link className="menu__link" to="/Filosofía">Filosofía</Link></li>
           <li className="menu__item"><Link className="menu__link" to="/Seguros">Seguros</Link></li>
           <li className="menu__item"><Link className="menu__link" to="/Aseguradoras">Aseguradoras</Link></li>
           <li className="menu__item"><Link className="menu__link" to="/contacto">Contacto</Link></li>

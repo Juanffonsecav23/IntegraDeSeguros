@@ -67,6 +67,7 @@ color: blue;
 #tituloM{
     grid-area: tituloM;
     color: blue;
+    height: 30%;
 }
 #textoM{
     grid-area: textoM;
@@ -74,6 +75,59 @@ color: blue;
     margin-left: 10%;
     text-align:justify;
 }
+
+.Mision{
+    display: grid;
+    grid-template-areas: 
+    "tituloM tituloM "
+    "textoM imgM";
+    align-items: center;
+    justify-content: center;
+}
+
+
+/********* Mobile *********/
+
+@media only screen and (max-width:480px){
+    .logosEmpresas{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        margin: 2% 0 0 5%;
+    }
+    .logosItems{
+        width:160px ;
+        height: 100px;
+    }
+    .boxes{
+        display:flex;
+        flex-flow: column nowrap;
+        gap: 55px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 30px;
+    }
+    #imgM{
+        grid-area: imgM;
+        width: 150px;
+        height: 150px;
+        align-items: center;
+    }
+    .contactoHP{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        gap: 50px;
+    }
+    .mapaHP{
+        width: 90%;
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width:979px){
 #imgM{
     grid-area: imgM;
     margin-left: 10px;
@@ -81,20 +135,22 @@ color: blue;
     height: 200px;
     margin-right: 10px;
 }
-.Mision{
-    display: grid;
-    grid-template-areas: 
-    "tituloM tituloM "
-    "textoM imgM";
-}
 .contactoHP{
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: space-evenly ;
     align-items: center;
+    margin-right: 30px;
     gap: 50px;
 }
-.formHP{
-    width: 600px;
-    height: 400px;
+.mapaHP{
+    width: 700px;
+    height:550px;
+    margin-right: 4%;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.22);
+}
+.formHp{
+    width: 500px;
+    height: 550px;
+}
 }
