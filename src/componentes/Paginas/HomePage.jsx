@@ -12,15 +12,15 @@ function HomePage(onHandleConfrim) {
             <Carousel>
             <div  className="logosEmpresas">
               <Link to='/Aseguradoras'><img src="/imgs/Mapfre_logo.jpeg" alt="Mapfre" className="logosItems" /></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/AxaColpatria_logo.jpeg" alt="" className="logosItems"/></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/Bolivar_logo.png" alt="" className="logosItems"/></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/SegurosSura_logo.jpeg" alt=""className="logosItems" /></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/AxaColpatria_logo.jpeg" alt="Axa Colpatria" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/Bolivar_logo.png" alt="Bolivar" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/SegurosSura_logo.jpeg" alt="Sura"className="logosItems" /></Link>
             </div>
             <div  className="logosEmpresas">
-              <Link to='/Aseguradoras'><img src="/imgs/HDI_logo.jpeg" alt="" className="logosItems"/></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/Liberty_logo.jpeg" alt="" className="logosItems"/></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/SegurosDelEstado_logo.gif" alt="" className="logosItems"/></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/SegurosMundial_logo.jpeg" alt="" className="logosItems" /></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/HDI_logo.jpeg" alt="HDI" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/Liberty_logo.jpeg" alt="Liberty" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/SegurosDelEstado_logo.gif" alt="Seguros del estado" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/SegurosMundial_logo.jpeg" alt="Mundial" className="logosItems" /></Link>
             </div>
             </Carousel>
           <section className="boxes">
@@ -31,7 +31,7 @@ function HomePage(onHandleConfrim) {
                   </div>
                   <div className="flipCardBack Mision">
                     <h3 id="tituloM">Quienes Somos</h3>
-                    <img src="/imgs/TeamWork-bro.svg" alt="" id="imgM" />
+                    <img src="/imgs/TeamWork-bro.svg" alt="Trabajo en equipo" id="imgM" />
                     <p id="textoM" >Integral Asesores de Seguros, establecida en 1995, es una empresa que ha ganado reconocimiento por su compromiso, integridad y fiabilidad. A lo largo de los años, se ha fortalecido en el ámbito de la asesoría, venta, suscripción y gestión de seguros en una variedad de categorías disponibles en el mercado.
                     </p>
                   </div>
@@ -45,7 +45,7 @@ function HomePage(onHandleConfrim) {
                 <div className="Mision flipCardBack">
                   <h3 id="tituloM">Misión</h3>
                   <p id="textoM" >Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
-                  <img src="/imgs/Partnership-bro.svg" alt="" id="imgM"  />
+                  <img src="/imgs/Partnership-bro.svg" alt="Confianza" id="imgM"  />
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ function HomePage(onHandleConfrim) {
                 <div className="Mision flipCardBack">
                   <h3 id="tituloM">Visión</h3>
                   <p id="textoM">Ser aliados estratégicos de nuestros clientes y Compañías de Seguros creando oportunidades y beneficios que permitan el crecimiento mutuo, enmarcados dentro del respeto y transparencia de los compromisos.</p>
-                  <img src="/imgs/Mision.png" alt="" id="imgM"/>
+                  <img src="/imgs/Mision.png" alt="Crecimiento" id="imgM"/>
                 </div>
               </div>
             </div>

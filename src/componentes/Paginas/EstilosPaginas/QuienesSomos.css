@@ -49,7 +49,7 @@
 
 .boxesQS{
     display: flex;
-    flex-flow:row wrap ;
+    flex-flow:row nowrap ;
     justify-content: space-evenly;
     gap: 10px;
 }

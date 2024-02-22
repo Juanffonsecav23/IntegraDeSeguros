@@ -4,9 +4,9 @@ function QuienesSomos() {
     <div>
         <h1 className="tituloQS">Quienes Somos</h1>
         <div className="boxQS">
-          <img src="/imgs/TeamWork-bro.svg" alt="" className="imgBoxes animate__animated animate__backInLeft" />
-          <img src="/imgs/Consulting-bro.svg" alt="" className="imgBoxes animate__animated animate__backInUp" />
-          <img src="/imgs/Personal finance-cuate.svg" alt="" className="imgBoxes animate__animated animate__backInRight" />
+          <img src="/imgs/TeamWork-bro.svg" alt="Trabajo en equipo" className="imgBoxes animate__animated animate__backInLeft" />
+          <img src="/imgs/Consulting-bro.svg" alt="Consultoria" className="imgBoxes animate__animated animate__backInUp" />
+          <img src="/imgs/Personal finance-cuate.svg" alt="Asesoramiento" className="imgBoxes animate__animated animate__backInRight" />
         </div>
         <h2 className="sloganQS">Servir para Construir</h2>
         <div className="textoQS">
@@ -22,7 +22,7 @@ function QuienesSomos() {
               <div className=" Mision flipCardBack">
                 <h3 id="tituloM">Misión</h3>
                 <p id="textoM">Ofrecer a empresas y personas asesoría y alternativas en seguros que cubran sus necesidades, generando valor, servicio, confianza y bienestar. </p>
-                <img src="/imgs/Partnership-bro.svg" alt="" id="imgM" />
+                <img src="/imgs/Partnership-bro.svg" alt="Compañerismo" id="imgM" />
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ function QuienesSomos() {
               <div className="Mision flipCardBack">
                 <h3 id="tituloM">Visión</h3>
                 <p id="textoM" style={{marginTop:"45px"}}>Ser aliados estratégicos de nuestros clientes y Compañías de Seguros creando oportunidades y beneficios que permitan el crecimiento mutuo, enmarcados dentro del respeto y transparencia de los compromisos</p>
-                <img src="/imgs/Mision.png" alt="" id="imgM"/>
+                <img src="/imgs/Mision.png" alt="Crecimiento" id="imgM"/>
               </div>
             </div>
           </div>

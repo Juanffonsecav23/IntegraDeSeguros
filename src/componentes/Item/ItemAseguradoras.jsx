@@ -4,7 +4,7 @@ function ItemSeguros ({title , img , description, telefono ,LNacional }){
     return(
         <div className="itemCardAseguradoras">
             <div className="itemCardImgAseguradoras">
-                <img src={img} alt="imagen" style={{width: "100%" , height:"100%"}} />
+                <img src={img} alt={title} style={{width: "100%" , height:"100%"}} />
             </div>
             <div className="itemCardBodyAseguradoras">
             <h4>{title}</h4>

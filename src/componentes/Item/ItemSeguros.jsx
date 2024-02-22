@@ -23,7 +23,7 @@ function ItemSeguros ({title, img, category, id, description }) {
                     <small>{category}</small>
                   </div>
                   <div className="itemCardBodySeguros">
-                    <img src={img} alt="" className="imgSeguros" />
+                    <img src={img} alt={title} className="imgSeguros" />
                     <ul className="itemDescriptionSeguros">
                         <DescriptionValid />
                     </ul>

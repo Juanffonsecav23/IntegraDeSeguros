@@ -34,7 +34,7 @@ function Footer() {
           <li className="menu__item"><a href="https://goo.gl/maps/n9s3yXVv97opp45b8" className="itemsVH menu__item"><img src="/icons/geo-alt-fill.svg" ></img>Cr 31A # 25A - 93</a></li>
           <li className="menu__item"><a href="mailto:" className="itemsVH menu__item"><img src="/icons/envelope-fill.svg"></img> contacto@integaldeseguros.com.co </a></li>
         </ul>
-      <p>&copy;2023 Juan Felipe Fonseca Vargas</p>
+      <p>&copy;2024 - Derechos reservados a Integral Asesores de Seguros</p>
         </footer>
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script noModule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

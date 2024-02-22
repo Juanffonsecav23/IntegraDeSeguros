@@ -62,16 +62,16 @@ function Servicios() {
           </ul>
           <div className="listaImagenes animate__animated animate__fadeInDown">
               <div>
-                <img src="/imgs/generar.png" alt=""className="imgFilosofia" />
+                <img src="/imgs/generar.png" alt="Generar"className="imgFilosofia" />
               </div>
               <div>
-                <img src="/imgs/resolver.png" alt="" className="imgFilosofia"/>
+                <img src="/imgs/resolver.png" alt="Resolver" className="imgFilosofia"/>
               </div>
               <div>
-                <img src="/imgs/aprender.png" alt="" className="imgFilosofia" />
+                <img src="/imgs/aprender.png" alt="Aprender" className="imgFilosofia" />
               </div>
               <div>
-                <img src="/imgs/liderar.png" alt=""className="imgFilosofia"  />
+                <img src="/imgs/liderar.png" alt="Liderar"className="imgFilosofia"  />
             </div>
           </div>
         </div>
