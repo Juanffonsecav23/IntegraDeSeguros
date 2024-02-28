@@ -47,6 +47,26 @@
 }
 
 
+
+/********** Tablet *********/
+
+
+@media only screen and (min-width:481px) and (max-width:978px){
+    .CajaServicios{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .imgFilosofia{
+        width: 200px;
+        height: 200px;
+        border-radius: 30px;
+        border: solid gray 2px
+    }
+}
+
+/********* Desktop *********/
 @media only screen and (min-width:979px){
     .CajaServicios{
         display: flex;

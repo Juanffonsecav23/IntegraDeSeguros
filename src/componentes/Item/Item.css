@@ -122,6 +122,48 @@
     }
 }
 
+
+/********** Tablet *********/
+
+
+@media only screen and (min-width:481px) and (max-width:978px){
+    .itemCardSeguros{
+        color: black;
+        text-align: center;
+        position: relative;
+        margin: 10px 15px;
+        width: 380px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+        background-color: #fff;
+        overflow: hidden;  
+        transition: all 0.20s ease-in;
+    }
+    .itemCardAseguradoras{
+        color: black;
+        text-align: center;
+        position: relative;
+        margin: 10px 15px;
+        padding-bottom: 25px;
+        width: 320px;
+        border-radius: 4px;
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+        background-color: #fff;
+        overflow: hidden;  
+        transition: all 0.20s ease-in;
+    }
+    .itemCardImgSeguros{
+        height: 15rem;
+    }
+    .imgSeguros{
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+/********** Desktop *********/
+
 @media only screen and (min-width:979px){
     .itemCardSeguros{
         color: black;

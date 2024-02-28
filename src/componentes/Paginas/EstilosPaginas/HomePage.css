@@ -127,6 +127,44 @@ color: blue;
     }
 }
 
+/********** Tablet *********/
+
+
+@media only screen and (min-width:481px) and (max-width:978px){
+    .logosItems{
+        width:190px ;
+        height: 140px;
+    }
+    .boxes{
+        display:flex;
+        flex-flow: column nowrap;
+        gap: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 30px;
+    }
+    #imgM{
+        grid-area: imgM;
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        padding-right: 20%;
+    }
+    #textoM{
+        grid-area: textoM;
+        width: 70%;
+        margin-left: 10%;
+        text-align:justify;
+    }
+    .mapaHP{
+        width: 90%;
+        height: 400px;
+        margin-left: 5%;
+    }
+}
+
+/********* Desktop *********/
+
 @media only screen and (min-width:979px){
 #imgM{
     grid-area: imgM;

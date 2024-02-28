@@ -45,6 +45,20 @@
     }
 }
 
+/********** Tablet *********/
+
+
+@media only screen and (min-width:481px) and (max-width:978px){
+    .boxesQS{
+        display: flex;
+        flex-flow: column;
+        gap: 25px;
+        padding: 5%;
+    }
+}
+
+/********* Desktop *********/
+
 @media only screen and (min-width:979px){
 
 .boxesQS{
