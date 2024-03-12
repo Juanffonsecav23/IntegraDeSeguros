@@ -13,10 +13,10 @@ function Footer() {
         <li className="social-icon__item"><a className="social-icon__link" href="https://instagram.com/casaaloha152?igshid=MzRlODBiNWFlZA==">
             <img src="/icons/instagram.svg" alt="Logo de instagram" />
           </a></li>
-        <li className="social-icon__item"><a className="social-icon__link" href="#">
+        <li className="social-icon__item"><a className="social-icon__link" href="https://api.whatsapp.com/send?phone=3054751147&text=¡%20Hola%20Integral%20de%20Seguros%20quisíera%20más%20información%20de%20...">
             <img src="/icons/whatsapp.svg" alt="Logo de Whatsapp" />
           </a></li>
-        <li className="social-icon__item"><a className="social-icon__link" href="#">
+        <li className="social-icon__item"><a className="social-icon__link" href="https://www.google.com/search?q=integral+de+seguros&rlz=1C1CHBF_esCO1082CO1085&oq=integral+de+seg&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyDQgBEC4YrwEYxwEYgAQyBggCEEUYOTIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIGCAYQRRg9MgYIBxBFGD2oAgCwAgA&sourceid=chrome&ie=UTF-8">
             <img src="/icons/google.svg" alt="Logo de Google" />
           </a></li>
       </ul>
@@ -29,10 +29,10 @@ function Footer() {
           <li className="menu__item"><Link className="menu__link" to="/contacto">Contacto</Link></li>
         </ul>
         <ul className='menuFooter'>
-          <li className="menu__item"><a href="https://web.whatsapp.com/" className="itemsVH menu__item"><img src="/icons/whatsapp.svg" ></img>313 333 1128</a></li>
+          <li className="menu__item"><a href="https://api.whatsapp.com/send?phone=3054751147&text=¡%20Hola%20Integral%20de%20Seguros%20quisíera%20más%20información%20de%20..." className="itemsVH menu__item"><img src="/icons/whatsapp.svg" ></img>305 475 1147</a></li>
           <li className="itemsVH menu__item"><img src="/icons/telephone-fill.svg" ></img> (601) 368 4136</li>
           <li className="menu__item"><a href="https://goo.gl/maps/n9s3yXVv97opp45b8" className="itemsVH menu__item"><img src="/icons/geo-alt-fill.svg" ></img>Cr 31A # 25A - 93</a></li>
-          <li className="menu__item"><a href="mailto:" className="itemsVH menu__item"><img src="/icons/envelope-fill.svg"></img> contacto@integaldeseguros.com.co </a></li>
+          <li className="menu__item"><a href="mailto:" className="itemsVH menu__item"><img src="/icons/envelope-fill.svg"></img> asesor@integraldeseguros.com.co </a></li>
         </ul>
       <p>&copy;2024 - Derechos reservados a Integral Asesores de Seguros</p>
         </footer>
