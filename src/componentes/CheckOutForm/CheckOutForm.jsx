@@ -69,7 +69,7 @@ function CheckOutForm() {
             <input className="input-Form" value={userData.phone} name="phone" type="text" onChange={onInputChange} />
         </div>
         <div>
-            <p style={{marginTop:"10px" , marginBottom:"0"}}>Comentario: </p>
+            <p className="PComent">Comentario: </p>
             <textarea cols={30} rows={10} className="input-Form" value={userData.comentario} name="comentario" onChange={onInputChange}></textarea>
         </div>
         <button onClick={onSubmit} className="botonFormulario">Enviar</button>

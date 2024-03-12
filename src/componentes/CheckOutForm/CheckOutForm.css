@@ -26,3 +26,8 @@
     background:radial-gradient(circle, rgba(0,0,255,1) 0%, rgba(145,184,255,1) 35%, rgba(255,255,255,1) 100%);
 
 }
+.PComent{
+    margin-top:10px;
+    margin-bottom:0; 
+    font-family:inherit;
+}

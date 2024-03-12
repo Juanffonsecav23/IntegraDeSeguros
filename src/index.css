@@ -1,4 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Madimi+One&display=swap');
+
 a{
   text-decoration: overline;
   color: red;
 }
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px; 
+}
+

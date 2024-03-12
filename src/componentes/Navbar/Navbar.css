@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+a{
+  font-weight: 600;
+}
 
 #concatVarHeader{
     background:blue ;
