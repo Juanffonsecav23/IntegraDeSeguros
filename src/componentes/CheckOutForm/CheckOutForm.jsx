@@ -51,7 +51,7 @@ function CheckOutForm() {
 
   return (
     <div className="checkoutform-Container">
-        <h3 style={{color:"blue"}}>Para mas información dejanos tus datos y te contactaremos</h3>
+        <h3 style={{color:"#032c86"}}>Para mas información dejanos tus datos y te contactaremos</h3>
         <div>
             <label >Nombre(s) :</label>
             <input className="input-Form" value={userData.nombre} name="nombre" type="text" onChange={onInputChange} />
