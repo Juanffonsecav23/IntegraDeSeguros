@@ -3,7 +3,7 @@
 .footer {
   position: relative;
   width: 100%;
-  background: blue;
+  background: #032c86;
   min-height: 100px;
   padding: 20px ;
   display: flex;

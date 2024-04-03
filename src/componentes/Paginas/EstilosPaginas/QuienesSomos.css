@@ -3,7 +3,7 @@
     text-align: center;
     padding-top: 55px;
     height: 200px;
-    background:linear-gradient(120deg, rgb(145, 184, 255) 30%, blue 88%); 
+    background:linear-gradient(120deg, rgb(145, 184, 255) 30%, #032c86 88%); 
 }
 
 .boxQS{/* imagenes de los slogans */ 
@@ -19,7 +19,7 @@
     text-align: center;
     margin: 20px;
     color: blue;
-    font-family: "Cedarville Cursive", cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .textoQS{
     text-align: justify;
