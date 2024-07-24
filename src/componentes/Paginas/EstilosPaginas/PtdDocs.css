@@ -11,3 +11,14 @@
     border: 30px solid darkgray;
     border-radius: 5px;
 }
+
+/********* Mobile *********/
+
+@media only screen and (max-width:480px){
+    .PtdDocs{
+        width: 100%;
+        height: 600px;
+        border: solid darkgray;
+        border-radius: 5px;
+    }
+}
