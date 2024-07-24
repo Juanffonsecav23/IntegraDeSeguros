@@ -1,0 +1,13 @@
+.PtdDiv{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+.PtdDocs{
+    width: 60%;
+    height: 620px;
+    border: 30px solid darkgray;
+    border-radius: 5px;
+}
