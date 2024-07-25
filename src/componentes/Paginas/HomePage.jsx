@@ -63,7 +63,7 @@ function HomePage(onHandleConfrim) {
             </div>
           </section>
           <div className="Ptd">
-            <p>Politicas de tratamiento de datos </p><Link to='/Ptd' style={{color:"aquamarine"}}>aqui</Link>
+            <p>Politicas de tratamiento de datos </p><Link to='/ptd' style={{color:"aquamarine"}}>aqui</Link>
           </div>
           <div className="contactoHP">
             <CheckOutForm onHandleConfrim={onHandleConfrim} className="formHP"/>
