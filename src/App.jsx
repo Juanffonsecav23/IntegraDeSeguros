@@ -30,7 +30,7 @@ function App() {
       <Route path='/messageConfirmation/:id' element={<MessageVerify/>}/>
       <Route path='/Aseguradoras' element={<Aseguradoras/>}/>
       <Route path='/Contacto' element={<Contacto/>}/>
-      <Route path='/Ptd' element={<Ptd/>}/>
+      <Route path='/ptd' element={<Ptd/>}/>
       <Route path='*' element={<h1>Error 404: Pagina no encontrada</h1>}/>
     </Routes>
     <WhatsappButton/>
