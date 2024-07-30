@@ -1,3 +1,15 @@
+
+.PtdSection{
+    margin: 25px;
+}
+.titles{
+    color: #032c86;
+    margin: 15px;
+}
+p{
+    text-align: justify;
+}
+
 .PtdDiv{
     display: flex;
     flex-flow: row nowrap;
