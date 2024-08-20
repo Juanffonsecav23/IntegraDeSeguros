@@ -11,8 +11,8 @@ import WhatsappButton from './componentes/WhatsappButton/WhatsappButton'
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainerSeguros'
 /* import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer' */
 import MessageVerify from './componentes/MessageVerify/MessageVerify'
-import { Analytics } from "@vercel/analytics/react"
-import Ptd from './componentes/Paginas/Ptd'
+/* import { Analytics } from "@vercel/analytics/react"
+ */import Ptd from './componentes/Paginas/Ptd'
 
 function App() {
 
@@ -35,8 +35,8 @@ function App() {
     </Routes>
     <WhatsappButton/>
     <Footer/>
-    <Analytics/>
-    </BrowserRouter>
+{/*     <Analytics/>
+ */}    </BrowserRouter>
 
   )
 }

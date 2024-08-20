@@ -12,14 +12,15 @@ function HomePage(onHandleConfrim) {
             <Carousel>
             <div  className="logosEmpresas">
               <Link to='/Aseguradoras'><img src="/imgs/Mapfre_logo.jpeg" alt="Mapfre" className="logosItems" /></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/AxaColpatria_logo.jpeg" alt="Axa Colpatria" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/HDI_logo.jpeg" alt="HDI" className="logosItems"/></Link>
               <Link to='/Aseguradoras'><img src="/imgs/Bolivar_logo.png" alt="Bolivar" className="logosItems"/></Link>
               <Link to='/Aseguradoras'><img src="/imgs/SegurosSura_logo.jpeg" alt="Sura"className="logosItems" /></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/SegurosDelEstado_logo.gif" alt="Seguros del estado" className="logosItems"/></Link>
             </div>
             <div  className="logosEmpresas">
-              <Link to='/Aseguradoras'><img src="/imgs/HDI_logo.jpeg" alt="HDI" className="logosItems"/></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/SBS_Logo.png" alt="SBS" className="logosItems"  /></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/AxaColpatria_logo.jpeg" alt="Axa Colpatria" className="logosItems"/></Link>
               <Link to='/Aseguradoras'><img src="/imgs/Liberty_logo.jpeg" alt="Liberty" className="logosItems"/></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/SegurosDelEstado_logo.gif" alt="Seguros del estado" className="logosItems"/></Link>
               <Link to='/Aseguradoras'><img src="/imgs/SegurosMundial_logo.jpeg" alt="Mundial" className="logosItems" /></Link>
             </div>
             </Carousel>
