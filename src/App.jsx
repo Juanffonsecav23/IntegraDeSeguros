@@ -11,6 +11,8 @@ import WhatsappButton from './componentes/WhatsappButton/WhatsappButton'
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainerSeguros'
 /* import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer' */
 import MessageVerify from './componentes/MessageVerify/MessageVerify'
+import { Analytics } from "@vercel/analytics/react"
+import Ptd from './componentes/Paginas/Ptd'
 
 function App() {
 
@@ -28,10 +30,12 @@ function App() {
       <Route path='/messageConfirmation/:id' element={<MessageVerify/>}/>
       <Route path='/Aseguradoras' element={<Aseguradoras/>}/>
       <Route path='/Contacto' element={<Contacto/>}/>
+      <Route path='/ptd/' element={<Ptd/>}/>
       <Route path='*' element={<h1>Error 404: Pagina no encontrada</h1>}/>
     </Routes>
     <WhatsappButton/>
     <Footer/>
+    <Analytics/>
     </BrowserRouter>
 
   )

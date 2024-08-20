@@ -84,6 +84,15 @@ color: #032c86;
     align-items: center;
     justify-content: center;
 }
+.Ptd{
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 2px;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    background-color: #032c86;
+}
 
 
 /********* Mobile *********/
