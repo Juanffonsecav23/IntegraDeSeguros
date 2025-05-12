@@ -5,7 +5,7 @@ function Carousel({children}) {
           {children.map((slide, index) => (
             <div
               key={index}
-              className={`carousel-item${index === 0 ? " active" : ""}`}
+              className={`carousel-item${index === 0 ? "active" : ""}`}
             >
               {slide}
             </div>
