@@ -20,7 +20,7 @@ function HomePage(onHandleConfrim) {
               <Link to='/Aseguradoras'><img src="/imgs/HDI_logo.jpeg" alt="HDI" className="logosItems"/></Link>
               <Link to='/Aseguradoras'><img src="/imgs/SBS_Logo.png" alt="SBS" className="logosItems"  /></Link>
               <Link to='/Aseguradoras'><img src="/imgs/AxaColpatria_logo.jpeg" alt="Axa Colpatria" className="logosItems"/></Link>
-              <Link to='/Aseguradoras'><img src="/imgs/SegurosMundial_logo.jpeg" alt="Mundial" className="logosItems" /></Link>
+              <Link to='/Aseguradoras'><img src="/imgs/Mundial.png" alt="Mundial" className="logosItems" /></Link>
             </div>
             </Carousel>
           <section className="boxes">
