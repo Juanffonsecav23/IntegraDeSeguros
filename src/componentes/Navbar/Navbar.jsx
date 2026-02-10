@@ -35,8 +35,8 @@ function Navbar() {
       <div>
         <ul id="concatVarHeader">
           <li><a href="https://api.whatsapp.com/send?phone=3054751147&text=¡%20Hola%20Integral%20de%20Seguros%20quisíera%20más%20información%20de%20..." className="itemsVH"><img src="/icons/whatsapp.svg" ></img>305 475 1147</a></li>
-          <li className="itemsVH"><img src="/icons/telephone-fill.svg" ></img> (601) 368 4136</li>
-          <li><a href="https://goo.gl/maps/n9s3yXVv97opp45b8" className="itemsVH"><img src="/icons/geo-alt-fill.svg" ></img>Cr 31A # 25A - 93</a></li>
+          <li className="itemsVH"><img src="/icons/telephone-fill.svg" ></img> (601) 703 5614</li>
+          <li><a href="https://goo.gl/maps/n9s3yXVv97opp45b8" className="itemsVH"><img src="/icons/geo-alt-fill.svg" ></img>Cl 150 #16 - 56</a></li>
           <li><a href="mailto:asesor@integraldeseguros.com.co" className="itemsVH"><img src="/icons/envelope-fill.svg"></img> asesor@integraldeseguros.com.co </a></li>
         </ul>
       </div>

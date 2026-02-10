@@ -67,7 +67,7 @@ function HomePage(onHandleConfrim) {
           </div>
           <div className="contactoHP">
             <CheckOutForm onHandleConfrim={onHandleConfrim} className="formHP"/>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15907.256290953768!2d-74.0830455!3d4.6272367!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bd5ddc8baa7%3A0x5c940c8afd6e3c51!2sIntegral%20de%20Seguros!5e0!3m2!1ses-419!2sco!4v1698196700312!5m2!1ses-419!2sco"  className="mapaHP"   loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.217944440894!2d-74.0424024!3d4.732165999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f856f58613fd5%3A0x9b80eefa69c3cbbe!2sCENTRO%20COMERCIAL%20CEDRITOS%20151-P.H.!5e0!3m2!1ses!2sco!4v1770691411995!5m2!1ses!2sco"  className="mapaHP"   loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
       </div>
   )
